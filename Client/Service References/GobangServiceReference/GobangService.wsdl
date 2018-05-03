@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="WcfGobangGameExample" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="WcfGobangGameExample" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="WcfGobangGameExample/Imports">
+      <xsd:import schemaLocation="http://localhost:50354/GobangService.svc?xsd=xsd0" namespace="WcfGobangGameExample" />
+      <xsd:import schemaLocation="http://localhost:50354/GobangService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGobangService_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_SitDown_InputMessage">
+    <wsdl:part name="parameters" element="tns:SitDown" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_GetUp_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUp" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_Start_InputMessage">
+    <wsdl:part name="parameters" element="tns:Start" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_SetDot_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetDot" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_SetDoubleDot_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetDoubleDot" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_TalkNum_InputMessage">
+    <wsdl:part name="parameters" element="tns:TalkNum" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_Talk_InputMessage">
+    <wsdl:part name="parameters" element="tns:Talk" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_Shake_InputMessage">
+    <wsdl:part name="parameters" element="tns:Shake" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowTalkNum_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowTalkNum" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowLogin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowLogin" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowLogout_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowLogout" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowSitDown_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowSitDown" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowGetUp_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowGetUp" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowStart_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowStart" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowTalk_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowTalk" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowSetDot_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowSetDot" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowSetDoubleDot_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowSetDoubleDot" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_GameStart_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GameStart" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_GameWin_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:GameWin" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_UpdateTablesInfo_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTablesInfo" />
+  </wsdl:message>
+  <wsdl:message name="IGobangService_ShowShake_OutputCallbackMessage">
+    <wsdl:part name="parameters" element="tns:ShowShake" />
+  </wsdl:message>
+  <wsdl:portType msc:usingSession="true" name="IGobangService">
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Login">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Login" message="tns:IGobangService_Login_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Logout">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Logout" message="tns:IGobangService_Logout_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SitDown">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/SitDown" message="tns:IGobangService_SitDown_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GetUp">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/GetUp" message="tns:IGobangService_GetUp_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Start">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Start" message="tns:IGobangService_Start_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SetDot">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/SetDot" message="tns:IGobangService_SetDot_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="SetDoubleDot">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/SetDoubleDot" message="tns:IGobangService_SetDoubleDot_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="TalkNum">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/TalkNum" message="tns:IGobangService_TalkNum_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Talk">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Talk" message="tns:IGobangService_Talk_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="Shake">
+      <wsdl:input wsaw:Action="WcfGobangGameExample/IGobangService/Shake" message="tns:IGobangService_Shake_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowTalkNum">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowTalkNum" message="tns:IGobangService_ShowTalkNum_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowLogin">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowLogin" message="tns:IGobangService_ShowLogin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowLogout">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowLogout" message="tns:IGobangService_ShowLogout_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowSitDown">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowSitDown" message="tns:IGobangService_ShowSitDown_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowGetUp">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowGetUp" message="tns:IGobangService_ShowGetUp_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowStart">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowStart" message="tns:IGobangService_ShowStart_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowTalk">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowTalk" message="tns:IGobangService_ShowTalk_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowSetDot">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowSetDot" message="tns:IGobangService_ShowSetDot_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowSetDoubleDot">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowSetDoubleDot" message="tns:IGobangService_ShowSetDoubleDot_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GameStart">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/GameStart" message="tns:IGobangService_GameStart_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="GameWin">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/GameWin" message="tns:IGobangService_GameWin_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="UpdateTablesInfo">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/UpdateTablesInfo" message="tns:IGobangService_UpdateTablesInfo_OutputCallbackMessage" />
+    </wsdl:operation>
+    <wsdl:operation msc:isInitiating="true" msc:isTerminating="false" name="ShowShake">
+      <wsdl:output wsaw:Action="WcfGobangGameExample/IGobangService/ShowShake" message="tns:IGobangService_ShowShake_OutputCallbackMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

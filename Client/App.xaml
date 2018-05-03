@@ -1,0 +1,57 @@
+﻿<Application x:Class="Client.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+              xmlns:my="clr-namespace:Client.MyClass"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+
+        <!--  定义模板 ListBoxItem  -->
+        <Style x:Key="LBXITEM_VERTICAL" TargetType="ListBoxItem">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ListBoxItem">
+                        <Border x:Name="border"  Width="24" Height="24">
+                            <my:GifImage x:Name="gif" BorderThickness="1"
+                                            BorderBrush="#D3E4F0" Source="{Binding gifImg}"
+                                            Stretch="Uniform"/>
+                        </Border>
+                        <!--- 触发器 ，鼠标选中时高亮显示， 当鼠标经过时高亮 -->
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="BorderBrush" TargetName="gif" Value="#4CA0D9"/>
+                            </Trigger>
+                            <Trigger Property="IsSelected" Value="True">
+                                <Setter Property="BorderBrush" TargetName="gif" Value="#ff0000"/>
+                            </Trigger>
+                            <!--   多条件触发 -->
+                            <!--
+                            <MultiTrigger >
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="" Value=""/>
+                                    <Condition Property="" Value=""/>
+                                </MultiTrigger.Conditions>
+                            </MultiTrigger>
+                            -->
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="LBX_VERTICAL" TargetType="ListBox">
+            <Setter Property="ItemContainerStyle" Value="{DynamicResource LBXITEM_VERTICAL}"/>
+            <Setter Property="ItemsPanel">
+                <Setter.Value>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" IsItemsHost="True" Width="300">
+                        </WrapPanel>
+                    </ItemsPanelTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+    </Application.Resources>
+</Application>

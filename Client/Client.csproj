@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B04D3BC1-185D-49F6-BA51-5B6A4CD46830}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Client</RootNamespace>
+    <AssemblyName>Client</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ClientWindow.xaml.cs">
+      <DependentUpon>ClientWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MyClass\GifAnimation.cs" />
+    <Compile Include="MyClass\GifIMage.cs" />
+    <Compile Include="MyClass\GifModel.cs" />
+    <Compile Include="Service References\GobangServiceReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="Service References\GobangServiceReference\GobangService.wsdl" />
+    <None Include="Service References\GobangServiceReference\GobangService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\GobangServiceReference\GobangService1.wsdl" />
+    <None Include="Service References\GobangServiceReference\GobangService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\GobangServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GobangServiceReference\GobangService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GobangServiceReference\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GobangServiceReference\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\GobangServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\grid.gif" />
+    <Resource Include="images\player.gif" />
+    <Resource Include="images\SmallBoard.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ClientWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\center.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\head_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\0.jpg" />
+    <Resource Include="images\1.jpg" />
+    <Resource Include="images\10.jpg" />
+    <Resource Include="images\11.jpg" />
+    <Resource Include="images\12.jpg" />
+    <Resource Include="images\13.jpg" />
+    <Resource Include="images\14.jpg" />
+    <Resource Include="images\15.jpg" />
+    <Resource Include="images\2.jpg" />
+    <Resource Include="images\3.jpg" />
+    <Resource Include="images\4.jpg" />
+    <Resource Include="images\5.jpg" />
+    <Resource Include="images\6.jpg" />
+    <Resource Include="images\7.jpg" />
+    <Resource Include="images\8.jpg" />
+    <Resource Include="images\9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\allbg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\home.ico" />
+    <Resource Include="images\QQExpression.png" />
+    <Resource Include="images\shake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="XmlDoc\QQExpression.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="qqexpression\1.gif" />
+    <Resource Include="qqexpression\10.gif" />
+    <Resource Include="qqexpression\100.gif" />
+    <Resource Include="qqexpression\101.gif" />
+    <Resource Include="qqexpression\102.gif" />
+    <Resource Include="qqexpression\103.gif" />
+    <Resource Include="qqexpression\104.gif" />
+    <Resource Include="qqexpression\105.gif" />
+    <Resource Include="qqexpression\106.gif" />
+    <Resource Include="qqexpression\107.gif" />
+    <Resource Include="qqexpression\108.gif" />
+    <Resource Include="qqexpression\109.gif" />
+    <Resource Include="qqexpression\11.gif" />
+    <Resource Include="qqexpression\110.gif" />
+    <Resource Include="qqexpression\111.gif" />
+    <Resource Include="qqexpression\112.gif" />
+    <Resource Include="qqexpression\113.gif" />
+    <Resource Include="qqexpression\114.gif" />
+    <Resource Include="qqexpression\115.gif" />
+    <Resource Include="qqexpression\116.gif" />
+    <Resource Include="qqexpression\117.gif" />
+    <Resource Include="qqexpression\118.gif" />
+    <Resource Include="qqexpression\119.gif" />
+    <Resource Include="qqexpression\12.gif" />
+    <Resource Include="qqexpression\120.gif" />
+    <Resource Include="qqexpression\121.gif" />
+    <Resource Include="qqexpression\122.gif" />
+    <Resource Include="qqexpression\123.gif" />
+    <Resource Include="qqexpression\124.gif" />
+    <Resource Include="qqexpression\125.gif" />
+    <Resource Include="qqexpression\126.gif" />
+    <Resource Include="qqexpression\127.gif" />
+    <Resource Include="qqexpression\128.gif" />
+    <Resource Include="qqexpression\129.gif" />
+    <Resource Include="qqexpression\13.gif" />
+    <Resource Include="qqexpression\130.gif" />
+    <Resource Include="qqexpression\131.gif" />
+    <Resource Include="qqexpression\14.gif" />
+    <Resource Include="qqexpression\15.gif" />
+    <Resource Include="qqexpression\16.gif" />
+    <Resource Include="qqexpression\17.gif" />
+    <Resource Include="qqexpression\18.gif" />
+    <Resource Include="qqexpression\19.gif" />
+    <Resource Include="qqexpression\2.gif" />
+    <Resource Include="qqexpression\20.gif" />
+    <Resource Include="qqexpression\21.gif" />
+    <Resource Include="qqexpression\22.gif" />
+    <Resource Include="qqexpression\23.gif" />
+    <Resource Include="qqexpression\24.gif" />
+    <Resource Include="qqexpression\25.gif" />
+    <Resource Include="qqexpression\26.gif" />
+    <Resource Include="qqexpression\27.gif" />
+    <Resource Include="qqexpression\28.gif" />
+    <Resource Include="qqexpression\29.gif" />
+    <Resource Include="qqexpression\3.gif" />
+    <Resource Include="qqexpression\30.gif" />
+    <Resource Include="qqexpression\31.gif" />
+    <Resource Include="qqexpression\32.gif" />
+    <Resource Include="qqexpression\33.gif" />
+    <Resource Include="qqexpression\34.gif" />
+    <Resource Include="qqexpression\35.gif" />
+    <Resource Include="qqexpression\36.gif" />
+    <Resource Include="qqexpression\37.gif" />
+    <Resource Include="qqexpression\38.gif" />
+    <Resource Include="qqexpression\39.gif" />
+    <Resource Include="qqexpression\4.gif" />
+    <Resource Include="qqexpression\40.gif" />
+    <Resource Include="qqexpression\41.gif" />
+    <Resource Include="qqexpression\42.gif" />
+    <Resource Include="qqexpression\43.gif" />
+    <Resource Include="qqexpression\44.gif" />
+    <Resource Include="qqexpression\45.gif" />
+    <Resource Include="qqexpression\46.gif" />
+    <Resource Include="qqexpression\47.gif" />
+    <Resource Include="qqexpression\48.gif" />
+    <Resource Include="qqexpression\49.gif" />
+    <Resource Include="qqexpression\5.gif" />
+    <Resource Include="qqexpression\50.gif" />
+    <Resource Include="qqexpression\51.gif" />
+    <Resource Include="qqexpression\52.gif" />
+    <Resource Include="qqexpression\53.gif" />
+    <Resource Include="qqexpression\54.gif" />
+    <Resource Include="qqexpression\55.gif" />
+    <Resource Include="qqexpression\56.gif" />
+    <Resource Include="qqexpression\57.gif" />
+    <Resource Include="qqexpression\58.gif" />
+    <Resource Include="qqexpression\59.gif" />
+    <Resource Include="qqexpression\6.gif" />
+    <Resource Include="qqexpression\60.gif" />
+    <Resource Include="qqexpression\61.gif" />
+    <Resource Include="qqexpression\62.gif" />
+    <Resource Include="qqexpression\63.gif" />
+    <Resource Include="qqexpression\64.gif" />
+    <Resource Include="qqexpression\65.gif" />
+    <Resource Include="qqexpression\66.gif" />
+    <Resource Include="qqexpression\67.gif" />
+    <Resource Include="qqexpression\68.gif" />
+    <Resource Include="qqexpression\69.gif" />
+    <Resource Include="qqexpression\7.gif" />
+    <Resource Include="qqexpression\70.gif" />
+    <Resource Include="qqexpression\71.gif" />
+    <Resource Include="qqexpression\72.gif" />
+    <Resource Include="qqexpression\73.gif" />
+    <Resource Include="qqexpression\74.gif" />
+    <Resource Include="qqexpression\75.gif" />
+    <Resource Include="qqexpression\76.gif" />
+    <Resource Include="qqexpression\77.gif" />
+    <Resource Include="qqexpression\78.gif" />
+    <Resource Include="qqexpression\79.gif" />
+    <Resource Include="qqexpression\8.gif" />
+    <Resource Include="qqexpression\80.gif" />
+    <Resource Include="qqexpression\81.gif" />
+    <Resource Include="qqexpression\82.gif" />
+    <Resource Include="qqexpression\83.gif" />
+    <Resource Include="qqexpression\84.gif" />
+    <Resource Include="qqexpression\85.gif" />
+    <Resource Include="qqexpression\86.gif" />
+    <Resource Include="qqexpression\87.gif" />
+    <Resource Include="qqexpression\88.gif" />
+    <Resource Include="qqexpression\89.gif" />
+    <Resource Include="qqexpression\9.gif" />
+    <Resource Include="qqexpression\90.gif" />
+    <Resource Include="qqexpression\91.gif" />
+    <Resource Include="qqexpression\92.gif" />
+    <Resource Include="qqexpression\93.gif" />
+    <Resource Include="qqexpression\94.gif" />
+    <Resource Include="qqexpression\95.gif" />
+    <Resource Include="qqexpression\96.gif" />
+    <Resource Include="qqexpression\97.gif" />
+    <Resource Include="qqexpression\98.gif" />
+    <Resource Include="qqexpression\99.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\black.gif" />
+    <Resource Include="images\white.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

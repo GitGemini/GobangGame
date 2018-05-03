@@ -1,0 +1,32 @@
+E:\V3Network\V3Source\ch08\GobangGame\Service\bin\Service.dll
+E:\V3Network\V3Source\ch08\GobangGame\Service\bin\Service.pdb
+E:\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.dll
+E:\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.pdb
+E:\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch08\GobangGame\Service\bin\Service.dll
+E:\mj\V3Network\V3Source\ch08\GobangGame\Service\bin\Service.pdb
+E:\mj\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.dll
+E:\mj\V3Network\V3Source\ch08\GobangGame\Service\obj\Debug\Service.pdb
+E:\mj\V3Network\源程序\ch08\GobangGame\Service\bin\Service.dll
+E:\mj\V3Network\源程序\ch08\GobangGame\Service\bin\Service.pdb
+E:\mj\V3Network\源程序\ch08\GobangGame\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\源程序\ch08\GobangGame\Service\obj\Debug\Service.dll
+E:\mj\V3Network\源程序\ch08\GobangGame\Service\obj\Debug\Service.pdb
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Service\bin\Service.dll.config
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Service\bin\Service.dll
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Service\bin\Service.pdb
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Service\obj\Debug\Service.dll
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Service\obj\Debug\Service.pdb
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\bin\Service.dll.config
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\bin\Service.dll
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\bin\Service.pdb
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\obj\Debug\Service.dll
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\obj\Debug\Service.pdb
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\My Projects\GobangGame\GobangGame\Service\bin\Service.dll.config
+E:\My Projects\GobangGame\GobangGame\Service\bin\Service.dll
+E:\My Projects\GobangGame\GobangGame\Service\bin\Service.pdb
+E:\My Projects\GobangGame\GobangGame\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+E:\My Projects\GobangGame\GobangGame\Service\obj\Debug\Service.dll
+E:\My Projects\GobangGame\GobangGame\Service\obj\Debug\Service.pdb

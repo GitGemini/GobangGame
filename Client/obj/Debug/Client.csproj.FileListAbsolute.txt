@@ -1,0 +1,96 @@
+E:\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.exe.config
+E:\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.exe
+E:\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.pdb
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\MainWindow.baml
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\MainWindow.g.cs
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\App.g.cs
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.g.resources
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.exe
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.pdb
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.baml
+E:\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.exe.config
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.exe
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.pdb
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.exe
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\bin\Debug\Client.pdb
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.baml
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\MainWindow.baml
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\MainWindow.g.cs
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\App.g.cs
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.g.resources
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+E:\mj\V3Network\V3Source\ch08\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\bin\Debug\Client.exe.config
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.exe
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.pdb
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\bin\Debug\Client.exe
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\bin\Debug\Client.pdb
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\ClientWindow.baml
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\MainWindow.baml
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\MainWindow.g.cs
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\App.g.cs
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.g.resources
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+E:\mj\V3Network\源程序\ch08\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\bin\Debug\Client.exe.config
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.exe
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.pdb
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\bin\Debug\Client.exe
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\bin\Debug\Client.pdb
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.baml
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\MainWindow.baml
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\MainWindow.g.cs
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\App.g.cs
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.g.resources
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+F:\C#网络应用编程\ppt源代码\2_Source\ch08\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\bin\Debug\Client.exe.config
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.exe
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.pdb
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\bin\Debug\Client.exe
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\bin\Debug\Client.pdb
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\ClientWindow.baml
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\MainWindow.baml
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\MainWindow.g.cs
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\App.g.cs
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client_MarkupCompile.lref
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\App.baml
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.g.resources
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\lenovo\Desktop\FinalC#\GobangGame\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\My Projects\GobangGame\GobangGame\Client\bin\Debug\Client.exe.config
+E:\My Projects\GobangGame\GobangGame\Client\bin\Debug\Client.exe
+E:\My Projects\GobangGame\GobangGame\Client\bin\Debug\Client.pdb
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\ClientWindow.baml
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\MainWindow.baml
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\ClientWindow.g.cs
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\MainWindow.g.cs
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\App.g.cs
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client_MarkupCompile.cache
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client_MarkupCompile.lref
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\App.baml
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.g.resources
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.Properties.Resources.resources
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.exe
+E:\My Projects\GobangGame\GobangGame\Client\obj\Debug\Client.pdb

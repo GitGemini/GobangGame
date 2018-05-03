@@ -1,0 +1,10 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="/images/home.ico"
+        Background="AliceBlue"
+        Title="客户端示例" Height="200" Width="300" WindowStartupLocation="CenterScreen">
+    <StackPanel VerticalAlignment="Center" Button.Click="btn_Click">
+        <Button Name="btn2" Margin="5" Width="150" Content="同时启动2个客户端"/>
+    </StackPanel>
+</Window>
